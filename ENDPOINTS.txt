@@ -1,0 +1,15 @@
+CLIENTE
+
+GET - http://localhost:52163/api/Cliente/
+POST(CADASTRAR) - http://localhost:52163/api/Cliente/CadastrarCliente?NomeCliente=
+
+FILME
+
+GET - http://localhost:52163/api/Filme/
+POST(CADASTRAR) - http://localhost:52163/api/Filme/CadastrarFilme?NomeFilme=
+
+LOCAÇÃO
+
+GET - http://localhost:52163/api/Locacao
+POST(ALUGAR) - http://localhost:52163/api/Locacao/AlugarFilme?idFilme=0&idCliente=0
+POST(DEVOLVER) - http://localhost:52163/api/Locacao/DevolverFilme?idFilme=0
